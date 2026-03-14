@@ -17,4 +17,7 @@ export class App {
     console.log('hello ');
     alert('hello ' + this.fullName);
   }
+  handleClick() {
+  alert("Bạn đã click button");
+}
 }
